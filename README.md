@@ -20,6 +20,12 @@ scanssl-beta.pl file
 3. You need to clone the ssllabs git repository before running this
 program: git clone https://github.com/ssllabs/ssllabs-scan.git
 4. You need to install the programming language go
+Install cpan
+cpan
+install JSON
+install Date::Parse
+install DateTime
+install File::Copy
 5. You need to install the following perl modules: JSON, Date::Parse,
 DateTime, File::Copy
 6. Run the program: perl scanssl-beta.pl and it should work!
